@@ -2,11 +2,11 @@ import pandas as pd
 import os
 
 data = {
-    'Name' : ['Ali', 'Ahmad', 'Bilal'],
-    'Roll_No': [10, 12, 14],
-    'email': ['ali@gmail.com', 'ahmad@gmail.com', 'bilal@gmail.com'],
-    'DPT': ['CS', 'SE', 'IT'],
-    'Timing': ['Morning', 'Evening', 'Weekend']
+    'Name' : ['Ali', 'Ahmad', 'Bilal', 'Alia'],
+    'Roll_No': [10, 12, 14, 18],
+    'email': ['ali@gmail.com', 'ahmad@gmail.com', 'bilal@gmail.com', 'alia@gmail.com'],
+    'DPT': ['CS', 'SE', 'IT', 'BBA'],
+    'Timing': ['Morning', 'Evening', 'Weekend', 'Morning']
 }
 
 df = pd.DataFrame(data=data)
