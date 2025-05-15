@@ -1,0 +1,4 @@
+[core]
+    remote = localdir
+['remote "localdir"']
+    url = ../S3_bucket
